@@ -1,0 +1,20 @@
+Source: python-imageio
+Maintainer: George Shuklin <george.shuklin@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools, python-all, debhelper, dh-python
+X-Python-Version: >= 2.7
+Standards-Version: 3.9.8
+Homepage: http://imageio.github.io/
+Vcs-git: https://github.com/imageio/imageio
+Vcs-Browser: https://github.com/imageio/imageio
+
+Package: python-imageio
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-pkg-resources, python-numpy
+Description: Library for wide range of image, video, scientific, and volumetric formats.
+ Imageio is a Python library that provides an easy
+ interface to read and write a wide range of image
+ data, including animated images, video, volumetric
+ data, and scientific formats. It is cross-platform,
+ runs on Python 2.x and 3.x, and is easy to install.

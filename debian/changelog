@@ -1,0 +1,5 @@
+python-imageio (1.6-nmu1) unstable; urgency=medium
+
+  * Initial packaging
+
+ -- George Shuklin <george.shuklin@gmail.com>  Mon, 21 Nov 2016 13:35:39 +0200
